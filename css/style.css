@@ -4,6 +4,66 @@
     display: none;
   }
 
+  /* How It Works Section */
+/* How It Works Section */
+.how-it-works {
+  background-color: #f9f9f9;
+}
+
+.step-card {
+  position: relative;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #007bff;
+  color: white;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.bg-light {
+  background-color: #f7f7f7 !important;
+}
+
+@media (max-width: 768px) {
+  .step-number {
+      font-size: 1.5rem;
+      width: 40px;
+      height: 40px;
+  }
+  .step-card {
+      padding: 20px;
+  }
+}
+
+
   /* cites section */
   /* Mega dropdown container styling */
   .mega-dropdown .dropdown-menu {
@@ -400,8 +460,8 @@
 }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background: none;
-  color: var(--bs-primary);
+  background: var(--bs-primary);
+  color: var(--bs-white);
 }
 
 @media (min-width: 992px) {
