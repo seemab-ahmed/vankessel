@@ -1,4 +1,7 @@
 /* custom */
+body{
+  overflow-x: hidden;
+}
 @media (max-width: 1230px) {
   #fact {
     display: none;
