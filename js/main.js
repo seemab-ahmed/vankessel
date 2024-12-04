@@ -17,6 +17,15 @@
 
 
     // Header carousel
+
+    $('#headerCarousel').owlCarousel({
+        items: 1, // Show only one item
+        loop: false, // Disable looping
+        autoplay: false, // Disable automatic sliding
+        nav: false, // Optional: Remove navigation arrows
+        dots: false // Optional: Remove dots
+    });
+
     $(".header-carousel").owlCarousel({
         animateOut: 'fadeOut',
         items: 1,

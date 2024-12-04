@@ -1183,3 +1183,12 @@ p {
   background: var(--bs-dark);
 }
 /*** copyright end ***/
+
+#headerCarousel .owl-stage {
+  display: flex;
+  overflow: hidden;
+}
+
+#headerCarousel .owl-item:not(:first-child) {
+  display: none; /* Hide all but the first item */
+}
